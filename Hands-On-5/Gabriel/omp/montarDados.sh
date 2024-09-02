@@ -1,0 +1,1 @@
+pr -m -t -s teste2 teste4 teste6 teste8 teste10 | awk '{print $2, "\t", $4, "\t", $6, "\t", $8, "\t", $10}' > omp.data
